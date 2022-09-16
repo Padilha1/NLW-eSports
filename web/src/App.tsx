@@ -34,12 +34,12 @@ function App() {
  	return (
 		<div className='max-w-[1344px] mx-auto flex flex-col items-center my-20'>
 			<img src={logoImg} alt="" />
-			<h1 className='text-6xl text-white font-black mt-20'>
-				Your <span className='text-transparent bg-nlw-gradient bg-clip-text'> duo </span> is here!
-			</h1>
+                <h1 className='text-6xl text-white font-black mt-20 sm:text-4xl'>
+                    Your <span className='text-transparent bg-nlw-gradient bg-clip-text'> duo </span> is here!
+                </h1>
 
 			{/* Games API */}
-			<div className='grid grid-cols-9 gap-6 mt-16'>
+			<div className='grid grid-cols-9 gap-6 mt-16 sm:grid-cols-2 sm:gap-2 sm:w-64 '>
 				{games.map(game => {
 					return (
 						<GameBanner
@@ -52,8 +52,8 @@ function App() {
 				})}
 			</div>
 			{/* Bottom Box */}
-			<Dialog.Root>
-				<AdBanner/>
+			<Dialog.Root >
+				<AdBanner />
 
 				<AdModal/>
 			</Dialog.Root>
