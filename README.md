@@ -4,3 +4,13 @@
 <br>
 
 ![image](https://user-images.githubusercontent.com/82119551/190636819-49e3387a-74cd-489d-a86e-57c469184269.png)
+
+<h3> Tools used on this project</h3>
+<ul> 
+  <li>React Js</li>
+  <li>React Native</li>
+  <li>Typescript</li>
+  <li>Node Js</li>
+  <li>Express</li>
+  <li>Axios</li>
+</ul>
