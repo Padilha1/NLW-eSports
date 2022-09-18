@@ -36,7 +36,7 @@ export function AdModal() {
         if( !data.name ){return}
 
         try {
-            await axios.post(`http://localhost:3333/games/${data.game}/ads`, {
+            await axios.post(`http://26.141.147.28:3333/games/${data.game}/ads`, {
                 name: data.name,
                 yearsPlaying: Number(data.yearsPlaying),
                 discord: data.discord ,
