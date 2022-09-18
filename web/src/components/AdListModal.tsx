@@ -32,7 +32,7 @@ export function AdListModal ({data, onConnect}: Props) {
 
     const [duos, setDuos] = useState<DuoCardProps[]>([])
     useEffect(() =>{
-    fetch(`http://26.141.147.28:3333/games/${data}/ads`)
+    fetch(`http://localhost:3333/games/${data}/ads`)
     .then(response => response.json())
     .then(data => setDuos(data))
   }, []);
