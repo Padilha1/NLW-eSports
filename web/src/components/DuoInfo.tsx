@@ -20,7 +20,7 @@ export function DuoInfo({id,hourEnd, hourStart, name, useVoiceChannel, weekDays,
 
     const [duos, setDuos] = useState<DuoCardProps[]>([])
     useEffect(() =>{
-    fetch(`http://26.141.147.28:3333/games/${id}/ads`)
+    fetch(`http://localhost:3333/games/${id}/ads`)
     .then(response => response.json())
     .then(data => setDuos(data))
   }, []);
