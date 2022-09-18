@@ -79,7 +79,7 @@ export function AdModal() {
                             {game.title} 
                           </option>
                         )   
-   									})}
+   					})}
 
                   </select>
 								</div>
