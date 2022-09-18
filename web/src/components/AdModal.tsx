@@ -84,7 +84,7 @@ export function AdModal() {
                   </select>
 								</div>
 								<div className='flex flex-col gap-2'>
-									<label htmlFor="name">Your name or nickname:</label>
+									<label htmlFor="name">Your name or nickname</label>
 									<Input name="name" id="name" type="text" placeholder='How they call you ingame?'/>
 								</div>
 								<div className='grid grid-cols-2 gap-6'>
