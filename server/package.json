@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsnd src/server.ts"
+    "build": "prisma generate && tsc",
+    "dev": "tsnd src/server.ts",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",

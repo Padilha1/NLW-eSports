@@ -62,7 +62,6 @@ export function AdListModal ({data, onConnect}: Props) {
                         })}
                     </div>
                 </Dialog.Content>
-        
-    </Dialog.Portal>
+            </Dialog.Portal>
         )
 }
