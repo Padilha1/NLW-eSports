@@ -7,9 +7,10 @@ import { convertMinuteHours } from "./utils/convert-minut-hours";
 
 // HTTP methods                 / API RESTful / HTTP Codes
 // GET, POST,PUT,PATCH, DELETE
-
+const port = process.env.PORT;
 const app = express();
 const prisma = new PrismaClient();
+
 app.use(express.json());
 app.use(cors());
 
@@ -93,3 +94,5 @@ app.get("/ads/:id/discord", async (request, response) => {
     discord: Ad.discord,
   });
 });
+
+app.listen(port);
